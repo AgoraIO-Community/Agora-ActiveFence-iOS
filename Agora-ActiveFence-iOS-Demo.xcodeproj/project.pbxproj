@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F363FA202A4A8915008AD06E /* Agora_ActiveFence_iOS_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F363FA1F2A4A8915008AD06E /* Agora_ActiveFence_iOS_DemoApp.swift */; };
+		F363FA222A4A8915008AD06E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F363FA212A4A8915008AD06E /* ContentView.swift */; };
+		F363FA242A4A891A008AD06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F363FA232A4A891A008AD06E /* Assets.xcassets */; };
+		F363FA272A4A891A008AD06E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F363FA262A4A891A008AD06E /* Preview Assets.xcassets */; };
+		F363FA352A4A8EE5008AD06E /* AgoraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F363FA342A4A8EE5008AD06E /* AgoraManager.swift */; };
+		F363FA372A4A8EFC008AD06E /* AgoraVideoCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F363FA362A4A8EFC008AD06E /* AgoraVideoCanvasView.swift */; };
+		F3E65DD02A5ECC3F00DCBB8A /* ContentInspect in Frameworks */ = {isa = PBXBuildFile; productRef = F3E65DCF2A5ECC3F00DCBB8A /* ContentInspect */; };
+		F3E65DD22A5ECC3F00DCBB8A /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = F3E65DD12A5ECC3F00DCBB8A /* RtcBasic */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F39D11DB2A4BCCA9007EC438 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F363FA1C2A4A8915008AD06E /* Agora-ActiveFence-iOS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agora-ActiveFence-iOS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F363FA1F2A4A8915008AD06E /* Agora_ActiveFence_iOS_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agora_ActiveFence_iOS_DemoApp.swift; sourceTree = "<group>"; };
+		F363FA212A4A8915008AD06E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F363FA232A4A891A008AD06E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F363FA262A4A891A008AD06E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F363FA342A4A8EE5008AD06E /* AgoraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraManager.swift; sourceTree = "<group>"; };
+		F363FA362A4A8EFC008AD06E /* AgoraVideoCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraVideoCanvasView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F363FA192A4A8915008AD06E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E65DD02A5ECC3F00DCBB8A /* ContentInspect in Frameworks */,
+				F3E65DD22A5ECC3F00DCBB8A /* RtcBasic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F363FA132A4A8915008AD06E = {
+			isa = PBXGroup;
+			children = (
+				F363FA2D2A4A8B7C008AD06E /* Packages */,
+				F363FA1E2A4A8915008AD06E /* Agora-ActiveFence-iOS-Demo */,
+				F363FA1D2A4A8915008AD06E /* Products */,
+				F363FA2F2A4A8C76008AD06E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F363FA1D2A4A8915008AD06E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F363FA1C2A4A8915008AD06E /* Agora-ActiveFence-iOS-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F363FA1E2A4A8915008AD06E /* Agora-ActiveFence-iOS-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F363FA1F2A4A8915008AD06E /* Agora_ActiveFence_iOS_DemoApp.swift */,
+				F363FA212A4A8915008AD06E /* ContentView.swift */,
+				F3E65DD32A5ECEAB00DCBB8A /* Utilities */,
+				F363FA232A4A891A008AD06E /* Assets.xcassets */,
+				F363FA252A4A891A008AD06E /* Preview Content */,
+			);
+			path = "Agora-ActiveFence-iOS-Demo";
+			sourceTree = "<group>";
+		};
+		F363FA252A4A891A008AD06E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F363FA262A4A891A008AD06E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F363FA2D2A4A8B7C008AD06E /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		F363FA2F2A4A8C76008AD06E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3E65DD32A5ECEAB00DCBB8A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F363FA342A4A8EE5008AD06E /* AgoraManager.swift */,
+				F363FA362A4A8EFC008AD06E /* AgoraVideoCanvasView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F363FA1B2A4A8915008AD06E /* Agora-ActiveFence-iOS-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F363FA2A2A4A891A008AD06E /* Build configuration list for PBXNativeTarget "Agora-ActiveFence-iOS-Demo" */;
+			buildPhases = (
+				F363FA182A4A8915008AD06E /* Sources */,
+				F363FA192A4A8915008AD06E /* Frameworks */,
+				F363FA1A2A4A8915008AD06E /* Resources */,
+				F39D11DB2A4BCCA9007EC438 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agora-ActiveFence-iOS-Demo";
+			packageProductDependencies = (
+				F3E65DCF2A5ECC3F00DCBB8A /* ContentInspect */,
+				F3E65DD12A5ECC3F00DCBB8A /* RtcBasic */,
+			);
+			productName = "Agora-ActiveFence-iOS-Demo";
+			productReference = F363FA1C2A4A8915008AD06E /* Agora-ActiveFence-iOS-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F363FA142A4A8915008AD06E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F363FA1B2A4A8915008AD06E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F363FA172A4A8915008AD06E /* Build configuration list for PBXProject "Agora-ActiveFence-iOS-Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F363FA132A4A8915008AD06E;
+			packageReferences = (
+				F3E65DCE2A5ECC3F00DCBB8A /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */,
+			);
+			productRefGroup = F363FA1D2A4A8915008AD06E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F363FA1B2A4A8915008AD06E /* Agora-ActiveFence-iOS-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F363FA1A2A4A8915008AD06E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F363FA272A4A891A008AD06E /* Preview Assets.xcassets in Resources */,
+				F363FA242A4A891A008AD06E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F363FA182A4A8915008AD06E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F363FA222A4A8915008AD06E /* ContentView.swift in Sources */,
+				F363FA202A4A8915008AD06E /* Agora_ActiveFence_iOS_DemoApp.swift in Sources */,
+				F363FA372A4A8EFC008AD06E /* AgoraVideoCanvasView.swift in Sources */,
+				F363FA352A4A8EE5008AD06E /* AgoraManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F363FA282A4A891A008AD06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F363FA292A4A891A008AD06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F363FA2B2A4A891A008AD06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Agora-ActiveFence-iOS-Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 278494H572;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "to see you";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "to hear you";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.rocketar.Agora-ActiveFence-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F363FA2C2A4A891A008AD06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Agora-ActiveFence-iOS-Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 278494H572;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "to see you";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "to hear you";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.rocketar.Agora-ActiveFence-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F363FA172A4A8915008AD06E /* Build configuration list for PBXProject "Agora-ActiveFence-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F363FA282A4A891A008AD06E /* Debug */,
+				F363FA292A4A891A008AD06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F363FA2A2A4A891A008AD06E /* Build configuration list for PBXNativeTarget "Agora-ActiveFence-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F363FA2B2A4A891A008AD06E /* Debug */,
+				F363FA2C2A4A891A008AD06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3E65DCE2A5ECC3F00DCBB8A /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO/AgoraRtcEngine_iOS";
+			requirement = {
+				kind = exactVersion;
+				version = "4.1.1-special.9";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3E65DCF2A5ECC3F00DCBB8A /* ContentInspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3E65DCE2A5ECC3F00DCBB8A /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ContentInspect;
+		};
+		F3E65DD12A5ECC3F00DCBB8A /* RtcBasic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3E65DCE2A5ECC3F00DCBB8A /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = RtcBasic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F363FA142A4A8915008AD06E /* Project object */;
+}
