@@ -2,7 +2,11 @@
 
 This GitHub project showcases the content inspect moderation features available with Agora and their partner ActiveFence. It demonstrates how to enable and use the Agora Content Inspector to moderate content in real-time during Agora video calls.
 
-This feature is not yet live, so the full configuration may not yet be available.
+<p align="center">
+    <img style="max-width:512px" src="media/activefence_content_inspect.gif" />
+</p>
+
+> This feature is not yet live, so the full configuration may not yet be available.
 
 ## Prerequisites
 
@@ -84,4 +88,4 @@ Contributions to this project are welcome. If you find any issues or have sugges
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
